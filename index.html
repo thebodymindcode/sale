@@ -291,6 +291,56 @@
             box-shadow: 0 10px 30px var(--glow-gold);
         }
 
+        /* Promo Code Section */
+        .promo-code {
+            padding: 3rem 2rem;
+            background: var(--bg-secondary);
+        }
+
+        .promo-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .promo-box {
+            background: linear-gradient(135deg, rgba(212, 165, 116, 0.2), rgba(212, 165, 116, 0.05));
+            border: 2px dashed var(--accent-gold);
+            border-radius: 20px;
+            padding: 2.5rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .promo-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .promo-title {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .promo-code-value {
+            display: inline-block;
+            background: var(--accent-gold);
+            color: var(--bg-primary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            padding: 1rem 2.5rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            font-family: monospace;
+        }
+
+        .promo-instruction {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
         /* Products Section */
         .products {
             padding: 6rem 2rem;
@@ -482,6 +532,19 @@
             box-shadow: 0 10px 30px var(--glow-gold);
         }
 
+        .promo-reminder {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .promo-reminder strong {
+            color: var(--accent-gold);
+            font-family: monospace;
+            letter-spacing: 0.05em;
+        }
+
         /* Bundle */
         .bundle {
             padding: 4rem 2rem 6rem;
@@ -597,6 +660,18 @@
         .bundle-button:hover {
             transform: scale(1.05);
             box-shadow: 0 15px 40px var(--glow-gold);
+        }
+
+        .bundle-promo-reminder {
+            margin-top: 1.5rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        .bundle-promo-reminder strong {
+            color: var(--accent-gold);
+            font-family: monospace;
+            letter-spacing: 0.05em;
         }
 
         /* Footer */
@@ -733,6 +808,20 @@
         </div>
     </section>
 
+    <!-- Promo Code -->
+    <section class="promo-code">
+        <div class="promo-container">
+            <div class="promo-box">
+                <div class="promo-icon">🎁</div>
+                <div class="promo-content">
+                    <h3 class="promo-title">Ваш промокод на скидку 30%</h3>
+                    <div class="promo-code-value">MERRYCHRISTMAS</div>
+                    <p class="promo-instruction">Введите промокод при оформлении заказа на странице оплаты</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Products -->
     <section class="products" id="products">
         <div class="section-header">
@@ -764,8 +853,9 @@
                 </div>
                 <div class="button-group">
                     <a href="https://thebodymindcode.github.io/protocol" target="_blank" class="btn-details">Ознакомиться с программой</a>
-                    <a href="https://payform.ru/poa2szv/" class="btn-buy">Купить →</a>
+                    <a href="https://payform.ru/ktai8Xf/" class="btn-buy">Купить →</a>
                 </div>
+                <p class="promo-reminder">Промокод: <strong>MERRYCHRISTMAS</strong></p>
             </article>
 
             <!-- Product 2 -->
@@ -790,8 +880,9 @@
                 </div>
                 <div class="button-group">
                     <a href="https://thebodymindcode.github.io/NewYearCode/" target="_blank" class="btn-details">Ознакомиться с программой</a>
-                    <a href="https://payform.ru/c5abgLf/" class="btn-buy">Купить →</a>
+                    <a href="https://payform.ru/4kai934/" class="btn-buy">Купить →</a>
                 </div>
+                <p class="promo-reminder">Промокод: <strong>MERRYCHRISTMAS</strong></p>
             </article>
 
             <!-- Product 3 -->
@@ -816,7 +907,7 @@
                 </div>
                 <div class="button-group">
                     <a href="https://thebodymindcode.github.io/session1/" target="_blank" class="btn-details">Ознакомиться с программой</a>
-                    <a href="https://payform.ru/8da7uRf/" class="btn-buy">Записаться →</a>
+                    <a href="https://t.me/TheBodyMindCode_support" class="btn-buy">Записаться →</a>
                 </div>
             </article>
         </div>
@@ -840,7 +931,8 @@
                 <span class="bundle-price-new">10 830 ₽</span>
                 <div class="bundle-savings">Экономия 4 650 ₽</div>
             </div>
-            <a href="https://t.me/TheBodyMindCode_support" class="bundle-button">Написать для покупки →</a>
+            <a href="https://payform.ru/u7ai9il/" class="bundle-button">Купить набор →</a>
+            <p class="bundle-promo-reminder">Введите промокод <strong>MERRYCHRISTMAS</strong> при оплате</p>
         </div>
     </section>
 
